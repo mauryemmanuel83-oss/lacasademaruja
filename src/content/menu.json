@@ -1,0 +1,89 @@
+{
+  "categories": [
+    {
+      "id": "breakfast",
+      "name": { "es": "Desayunos", "en": "Breakfast" },
+      "icon": "sunrise",
+      "items": [
+        {
+          "name": { "es": "Desayuno de la Casa", "en": "House Breakfast" },
+          "desc": { "es": "Jugo según la temporada, café, té o mate de coca, huevos al gusto, pan de piso de la región, mantequilla y mermelada. Incluido con tu habitación.", "en": "Seasonal juice, coffee, tea or coca tea, eggs any style, traditional regional bread, butter and jam. Included with your room." },
+          "price": { "es": "Incluido", "en": "Included" }
+        },
+        {
+          "name": { "es": "Panqueque", "en": "Pancake" },
+          "desc": { "es": "Con miel de la sierra o mermelada, y plátano.", "en": "With highland honey or jam, and banana." },
+          "price": "S/ 10"
+        },
+        {
+          "name": { "es": "Guacamole con tostadas", "en": "Guacamole with toast" },
+          "desc": { "es": "Palta fresca sobre tostadas crujientes.", "en": "Fresh avocado on crunchy toast." },
+          "price": "S/ 7"
+        },
+        {
+          "name": { "es": "Sándwich mixto", "en": "Mixed sandwich" },
+          "desc": { "es": "Sándwich de queso, huevo, cebolla y tomate.", "en": "Cheese, egg, onion and tomato sandwich." },
+          "price": { "es": "Consultar", "en": "Ask" }
+        }
+      ]
+    },
+    {
+      "id": "boxlunch",
+      "name": { "es": "Box Lunch", "en": "Box Lunch" },
+      "icon": "utensils",
+      "items": [
+        {
+          "name": { "es": "Box Lunch para la montaña", "en": "Box Lunch for the mountains" },
+          "desc": { "es": "Prepara tu día de trek con nuestro box lunch para llevar. Pídelo en recepción la noche anterior.", "en": "Get ready for your trekking day with our box lunch to go. Order it at reception the night before." },
+          "price": "S/ 20"
+        }
+      ]
+    },
+    {
+      "id": "dinner",
+      "name": { "es": "Cenas", "en": "Dinner" },
+      "icon": "moon",
+      "items": [
+        {
+          "name": { "es": "Cena del día", "en": "Dinner of the day" },
+          "desc": { "es": "Dependiendo del día preparamos: pollo a la plancha, trucha a la plancha, lomo saltado, tallarín saltado, ají de gallina, burrito o tortilla de vegetales. Todo incluye postre y mate. Consulta la disponibilidad del día en recepción.", "en": "Depending on the day we prepare: grilled chicken, grilled trout, lomo saltado, stir-fried noodles, ají de gallina, burrito or vegetable omelet. All include dessert and herbal tea. Ask at reception for today's availability." },
+          "price": "S/ 25"
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": { "es": "Snacks", "en": "Snacks" },
+      "icon": "cookie",
+      "items": [
+        {
+          "name": { "es": "La Tiendita", "en": "The Little Shop" },
+          "desc": { "es": "Tenemos una pequeña tiendita de snacks: agarra lo que quieras y avisa en recepción qué estás llevando.", "en": "We have a small snack shop: grab what you like and just tell reception what you're taking." },
+          "price": { "es": "Precios marcados", "en": "Marked prices" }
+        }
+      ]
+    },
+    {
+      "id": "hot-drinks",
+      "name": { "es": "Bebidas calientes", "en": "Hot Drinks" },
+      "icon": "coffee",
+      "items": [
+        {
+          "name": { "es": "Mate de coca", "en": "Coca tea" },
+          "desc": { "es": "Tu aliado contra la altura. Siempre disponible.", "en": "Your ally against altitude. Always available." },
+          "price": { "es": "Cortesía", "en": "Courtesy" }
+        },
+        {
+          "name": { "es": "Manzanilla, muña o hierbas mixtas", "en": "Chamomile, muña or mixed herbs" },
+          "desc": { "es": "Infusiones andinas para el frío y la digestión.", "en": "Andean infusions for the cold and digestion." },
+          "price": { "es": "Cortesía", "en": "Courtesy" }
+        },
+        {
+          "name": { "es": "Jarra de café", "en": "Pot of coffee" },
+          "desc": { "es": "Café de altura recién pasado, para compartir.", "en": "Freshly brewed highland coffee, to share." },
+          "price": "S/ 5"
+        }
+      ]
+    }
+  ]
+}

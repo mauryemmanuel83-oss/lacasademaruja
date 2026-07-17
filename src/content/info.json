@@ -1,0 +1,53 @@
+{
+  "checklist": {
+    "title": { "es": "Checklist del viajero", "en": "Traveler's checklist" },
+    "items": [
+      { "es": "Protector solar (el sol de altura quema el doble)", "en": "Sunscreen (highland sun burns twice as hard)" },
+      { "es": "Lentes de sol con protección UV", "en": "UV-protection sunglasses" },
+      { "es": "Gorro para el sol y gorro para el frío", "en": "A sun hat and a warm beanie" },
+      { "es": "Capas: polar + casaca cortaviento", "en": "Layers: fleece + windbreaker" },
+      { "es": "Zapatillas de trekking ya usadas (no estrenes en la montaña)", "en": "Broken-in hiking shoes (don't debut them on the trail)" },
+      { "es": "Botella de agua reutilizable", "en": "Reusable water bottle" },
+      { "es": "Efectivo en soles (muchos sitios no aceptan tarjeta)", "en": "Cash in soles (many places don't take cards)" },
+      { "es": "Pastillas para el mal de altura (consulta a tu médico)", "en": "Altitude sickness pills (ask your doctor)" }
+    ]
+  },
+  "altitude": {
+    "title": { "es": "Consejos de altura", "en": "Altitude tips" },
+    "items": [
+      { "es": "Huaraz está a 3,052 m: tómate 1–2 días de aclimatación antes de cualquier trek.", "en": "Huaraz sits at 3,052 m: take 1–2 days to acclimatize before any trek." },
+      { "es": "Bebe mucha agua y mate de coca (siempre hay en la casa).", "en": "Drink plenty of water and coca tea (always available in the house)." },
+      { "es": "Evita alcohol y comidas pesadas las primeras 48 horas.", "en": "Avoid alcohol and heavy meals for the first 48 hours." },
+      { "es": "Empieza con caminatas suaves como Wilcacocha antes de Laguna 69.", "en": "Start with gentle hikes like Wilcacocha before Laguna 69." },
+      { "es": "Si sientes dolor de cabeza fuerte, náuseas o mareo persistente, avísanos de inmediato.", "en": "If you feel a strong headache, nausea or persistent dizziness, tell us right away." }
+    ]
+  },
+  "dontDo": {
+    "title": { "es": "Qué evitar", "en": "What to avoid" },
+    "items": [
+      { "es": "No dejes basura en las montañas — todo lo que subes, baja contigo.", "en": "Never leave trash in the mountains — pack out everything you pack in." },
+      { "es": "No compres tours en la calle sin verificar la agencia.", "en": "Don't buy tours on the street without verifying the agency." },
+      { "es": "No subestimes el clima: puede pasar de sol a granizo en minutos.", "en": "Don't underestimate the weather: sun can turn to hail in minutes." },
+      { "es": "No tomes agua de caño sin hervir o filtrar.", "en": "Don't drink tap water without boiling or filtering it." },
+      { "es": "No camines solo de noche por zonas alejadas del centro.", "en": "Avoid walking alone at night in areas far from downtown." }
+    ]
+  },
+  "weather": {
+    "title": { "es": "Clima en Huaraz", "en": "Weather in Huaraz" },
+    "text": {
+      "es": "Temporada seca (mayo–septiembre): días soleados, noches frías (hasta 0 °C), ideal para trekking. Temporada de lluvias (octubre–abril): mañanas despejadas y lluvias por la tarde. Todo el año: sol fuerte al mediodía y frío al anochecer — vístete en capas.",
+      "en": "Dry season (May–September): sunny days, cold nights (down to 0 °C), ideal for trekking. Rainy season (October–April): clear mornings and afternoon rain. Year-round: strong midday sun and cold evenings — dress in layers."
+    }
+  },
+  "directory": [
+    { "icon": "banknote", "name": { "es": "Cambio de dinero", "en": "Money exchange" }, "detail": { "es": "Casas de cambio en Av. Luzuriaga (centro). Mejor tasa que el aeropuerto.", "en": "Exchange houses on Av. Luzuriaga (downtown). Better rates than the airport." } },
+    { "icon": "landmark", "name": { "es": "Cajeros", "en": "ATMs" }, "detail": { "es": "BCP, BBVA, Interbank y Scotiabank en el centro, alrededor de la Plaza de Armas.", "en": "BCP, BBVA, Interbank and Scotiabank downtown, around the Plaza de Armas." } },
+    { "icon": "pill", "name": { "es": "Farmacias", "en": "Pharmacies" }, "detail": { "es": "InkaFarma y Mifarma en Av. Luzuriaga. Algunas abren 24 h.", "en": "InkaFarma and Mifarma on Av. Luzuriaga. Some open 24 h." } },
+    { "icon": "hospital", "name": { "es": "Hospitales / Clínicas", "en": "Hospitals / Clinics" }, "detail": { "es": "Hospital Víctor Ramos Guardia (público) y Clínica San Pablo (privada).", "en": "Víctor Ramos Guardia Hospital (public) and San Pablo Clinic (private)." } },
+    { "icon": "utensils", "name": { "es": "Restaurantes recomendados", "en": "Recommended restaurants" }, "detail": { "es": "Pregúntanos: te damos nuestra lista personal según lo que se te antoje.", "en": "Ask us: we'll share our personal list based on what you're craving." } },
+    { "icon": "shopping-basket", "name": { "es": "Mercados", "en": "Markets" }, "detail": { "es": "Mercado Central de Huaraz: frutas, quesos serranos y snacks para el trek.", "en": "Huaraz Central Market: fruit, highland cheese and trail snacks." } },
+    { "icon": "bus", "name": { "es": "Terminal terrestre", "en": "Bus terminal" }, "detail": { "es": "Empresas como Cruz del Sur, Oltursa y Movil Tours conectan con Lima (8 h).", "en": "Companies like Cruz del Sur, Oltursa and Movil Tours connect to Lima (8 h)." } },
+    { "icon": "car-taxi-front", "name": { "es": "Taxis", "en": "Taxis" }, "detail": { "es": "Del hotel al centro: S/ 4–5 aprox. Pídenos llamar a un taxi de confianza.", "en": "Hotel to downtown: approx. S/ 4–5. Ask us to call a trusted taxi." } },
+    { "icon": "siren", "name": { "es": "Emergencias", "en": "Emergencies" }, "detail": { "es": "Policía: 105 · Bomberos: 116 · Rescate de montaña (Casa de Guías): +51 43 421811", "en": "Police: 105 · Fire: 116 · Mountain rescue (Casa de Guías): +51 43 421811" } }
+  ]
+}

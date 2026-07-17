@@ -1,0 +1,68 @@
+[
+  {
+    "id": "single",
+    "name": { "es": "Habitación Simple", "en": "Single Room" },
+    "capacity": 1,
+    "image": "/assets/rooms/single.jpg",
+    "features": [
+      { "es": "Cama de 1 plaza y media", "en": "Twin bed" },
+      { "es": "Baño privado con agua caliente", "en": "Private bathroom with hot water" },
+      { "es": "Desayuno incluido", "en": "Breakfast included" }
+    ]
+  },
+  {
+    "id": "double",
+    "name": { "es": "Habitación Doble", "en": "Double Room" },
+    "capacity": 2,
+    "image": "/assets/rooms/double.jpg",
+    "features": [
+      { "es": "Cama matrimonial o dos camas", "en": "Double bed or two twin beds" },
+      { "es": "Baño privado con agua caliente", "en": "Private bathroom with hot water" },
+      { "es": "Desayuno incluido", "en": "Breakfast included" }
+    ]
+  },
+  {
+    "id": "double-terrace",
+    "name": { "es": "Doble con Terraza", "en": "Double Room with Terrace" },
+    "capacity": 2,
+    "image": "/assets/rooms/double-terrace.jpg",
+    "features": [
+      { "es": "Terraza privada con vista a la cordillera", "en": "Private terrace with mountain views" },
+      { "es": "Baño privado con agua caliente", "en": "Private bathroom with hot water" },
+      { "es": "Desayuno incluido", "en": "Breakfast included" }
+    ]
+  },
+  {
+    "id": "family",
+    "name": { "es": "Habitación Familiar", "en": "Family Room" },
+    "capacity": 3,
+    "image": "/assets/rooms/family.jpg",
+    "features": [
+      { "es": "Ideal para 3 personas", "en": "Ideal for 3 guests" },
+      { "es": "Baño privado con agua caliente", "en": "Private bathroom with hot water" },
+      { "es": "Desayuno incluido", "en": "Breakfast included" }
+    ]
+  },
+  {
+    "id": "family-terrace",
+    "name": { "es": "Familiar con Terraza", "en": "Family Room with Terrace" },
+    "capacity": 3,
+    "image": "/assets/rooms/family-terrace.jpg",
+    "features": [
+      { "es": "Terraza privada con vista a la cordillera", "en": "Private terrace with mountain views" },
+      { "es": "Ideal para 3 personas", "en": "Ideal for 3 guests" },
+      { "es": "Desayuno incluido", "en": "Breakfast included" }
+    ]
+  },
+  {
+    "id": "quad-terrace",
+    "name": { "es": "Cuádruple con Terraza", "en": "Quadruple Room with Terrace" },
+    "capacity": 4,
+    "image": "/assets/rooms/quad-terrace.jpg",
+    "features": [
+      { "es": "Espaciosa, para 4 personas", "en": "Spacious, for 4 guests" },
+      { "es": "Terraza privada con vista a la cordillera", "en": "Private terrace with mountain views" },
+      { "es": "Desayuno incluido", "en": "Breakfast included" }
+    ]
+  }
+]

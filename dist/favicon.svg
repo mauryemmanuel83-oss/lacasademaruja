@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path d="M8 4h48v40c0 8-10 14-24 16C18 58 8 52 8 44V4z" fill="#8B1E23" stroke="#C7A04A" stroke-width="3"/>
+  <path d="M14 34l10-14 6 8 6-10 14 16v4H14v-4z" fill="#C7A04A"/>
+  <text x="32" y="52" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#C7A04A" text-anchor="middle">B&amp;B</text>
+</svg>

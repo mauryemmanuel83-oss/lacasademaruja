@@ -1,0 +1,105 @@
+[
+  {
+    "id": "pisco-sour",
+    "name": "Pisco Sour",
+    "category": "pisco",
+    "image": "/assets/drinks/pisco-sour.jpg",
+    "abv": "12%",
+    "price": "S/ 20",
+    "ingredients": {
+      "es": "Pisco, limón, jarabe de goma, clara de huevo, amargo de angostura",
+      "en": "Pisco, lime, gum syrup, egg white, angostura bitters"
+    },
+    "story": {
+      "es": "El cóctel bandera del Perú, preparado en casa. Espuma sedosa, acidez perfecta y el orgullo nacional en una copa.",
+      "en": "Peru's flagship cocktail, made in-house. Silky foam, perfect acidity and national pride in a glass."
+    }
+  },
+  {
+    "id": "pisco-sour-doble",
+    "name": { "es": "Pisco Sour Doble", "en": "Double Pisco Sour" },
+    "category": "pisco",
+    "image": "/assets/drinks/pisco-sour.jpg",
+    "abv": "18%",
+    "price": "S/ 30",
+    "ingredients": {
+      "es": "Doble medida de pisco, limón, jarabe de goma, clara de huevo, amargo de angostura",
+      "en": "Double measure of pisco, lime, gum syrup, egg white, angostura bitters"
+    },
+    "story": {
+      "es": "Para los que ya se aclimataron: la versión con doble medida de pisco.",
+      "en": "For those already acclimatized: the double-measure version."
+    }
+  },
+  {
+    "id": "cusquena",
+    "name": { "es": "Cerveza Cusqueña", "en": "Cusqueña Beer" },
+    "category": "cerveza",
+    "image": "/assets/drinks/cusquena.jpg",
+    "abv": "5%",
+    "price": { "es": "Consultar", "en": "Ask" },
+    "ingredients": {
+      "es": "Cerveza dorada peruana",
+      "en": "Peruvian golden lager"
+    },
+    "story": {
+      "es": "La cerveza premium del Cusco, elaborada con agua de los Andes.",
+      "en": "Cusco's premium beer, brewed with Andean water."
+    }
+  },
+  {
+    "id": "pilsen",
+    "name": { "es": "Cerveza Pilsen", "en": "Pilsen Beer" },
+    "category": "cerveza",
+    "abv": "5%",
+    "image": "/assets/drinks/pilsen.jpg",
+    "price": { "es": "Consultar", "en": "Ask" },
+    "ingredients": {
+      "es": "Cerveza rubia clásica peruana",
+      "en": "Classic Peruvian lager"
+    },
+    "story": {
+      "es": "La clásica de las reuniones peruanas desde 1863.",
+      "en": "The classic of Peruvian gatherings since 1863."
+    }
+  },
+  {
+    "id": "coca-cola",
+    "name": "Coca-Cola",
+    "category": "sin-alcohol",
+    "image": "/assets/drinks/coca-cola.jpg",
+    "abv": "0%",
+    "price": { "es": "Consultar", "en": "Ask" },
+    "ingredients": { "es": "Gaseosa", "en": "Soft drink" },
+    "story": {
+      "es": "El clásico de siempre, bien fría.",
+      "en": "The timeless classic, served cold."
+    }
+  },
+  {
+    "id": "inca-kola",
+    "name": "Inca Kola",
+    "category": "sin-alcohol",
+    "image": "/assets/drinks/inca-kola.jpg",
+    "abv": "0%",
+    "price": { "es": "Consultar", "en": "Ask" },
+    "ingredients": { "es": "Gaseosa peruana de sabor único", "en": "Peru's unique golden soda" },
+    "story": {
+      "es": "La bebida dorada del Perú: el único país donde una gaseosa local le gana a las gigantes.",
+      "en": "Peru's golden drink: the only country where a local soda beats the giants."
+    }
+  },
+  {
+    "id": "agua",
+    "name": { "es": "Agua", "en": "Water" },
+    "category": "sin-alcohol",
+    "image": "/assets/drinks/agua.jpg",
+    "abv": "0%",
+    "price": { "es": "Consultar", "en": "Ask" },
+    "ingredients": { "es": "Agua mineral con o sin gas", "en": "Still or sparkling mineral water" },
+    "story": {
+      "es": "Hidratarse es la regla número uno de la altura.",
+      "en": "Staying hydrated is rule number one at altitude."
+    }
+  }
+]

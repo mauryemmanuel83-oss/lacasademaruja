@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "maruja",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/maurylaurente/Downloads/la-casa-de-maruja",
+      "port": 3100
+    }
+  ]
+}

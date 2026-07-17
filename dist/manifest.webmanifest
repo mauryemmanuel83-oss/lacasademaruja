@@ -1,0 +1,18 @@
+{
+  "name": "La Casa de Maruja B&B",
+  "short_name": "Casa Maruja",
+  "description": "Guía digital del huésped — Huaraz, Perú",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2E2A27",
+  "theme_color": "#8B1E23",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

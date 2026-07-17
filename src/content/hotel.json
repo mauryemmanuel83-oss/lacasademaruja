@@ -1,0 +1,142 @@
+{
+  "name": "La Casa de Maruja",
+  "tagline": { "es": "B&B · Huaraz — Áncash — Perú", "en": "B&B · Huaraz — Ancash — Peru" },
+  "motto": {
+    "es": "Nuevos amigos, nuevas culturas, nuevas experiencias",
+    "en": "New friends, new cultures, new experiences"
+  },
+  "heroImages": [
+    "/assets/hero/bg-1.jpg",
+    "/assets/hero/bg-2.jpg",
+    "/assets/hero/bg-3.jpg",
+    "/assets/hero/bg-4.jpg",
+    "/assets/hero/bg-5.jpg"
+  ],
+  "about": [
+    {
+      "id": "history",
+      "title": { "es": "Nuestra historia", "en": "Our story" },
+      "text": {
+        "es": "La Casa de Maruja nació como el sueño de una familia montañista de segunda generación: abrir las puertas de su hogar a los viajeros que llegan a Huaraz buscando la Cordillera Blanca. Lo que empezó como una casa familiar se convirtió en un bed & breakfast donde el café recién pasado, la madera cálida y los vinilos girando reciben a huéspedes de todo el mundo.",
+        "en": "La Casa de Maruja was born as the dream of a second-generation mountaineering family: to open the doors of their home to travelers arriving in Huaraz in search of the Cordillera Blanca. What began as a family house became a bed & breakfast where freshly brewed coffee, warm wood and spinning vinyl records welcome guests from all over the world."
+      }
+    },
+    {
+      "id": "who",
+      "title": { "es": "Quiénes somos", "en": "Who we are" },
+      "text": {
+        "es": "Somos Maruja, Gilf y nuestra familia. Gilf es guía de montaña con décadas de experiencia en la Cordillera Blanca y Huayhuash; Maruja es el corazón de la casa. Aquí no eres un número de habitación: eres parte de la familia mientras dure tu aventura.",
+        "en": "We are Maruja, Gilf and our family. Gilf is a mountain guide with decades of experience in the Cordillera Blanca and Huayhuash; Maruja is the heart of the house. Here you are not a room number: you are part of the family for as long as your adventure lasts."
+      }
+    },
+    {
+      "id": "different",
+      "title": { "es": "Qué nos hace diferentes", "en": "What makes us different" },
+      "text": {
+        "es": "Atención familiar real: vivimos aquí, contigo. Guía de montaña en casa, con rutas, mapas y consejos de primera mano. Terraza con vista a la Cordillera Blanca, colección de vinilos, noches de música y un barrio tranquilo a minutos del centro.",
+        "en": "Real family attention: we live here, with you. A mountain guide at home, with routes, maps and first-hand advice. A terrace overlooking the Cordillera Blanca, a vinyl collection, music nights and a quiet neighborhood minutes from downtown."
+      }
+    }
+  ],
+  "services": [
+    {
+      "icon": "wifi",
+      "name": { "es": "WiFi gratuito", "en": "Free WiFi" },
+      "action": "modal",
+      "detail": {
+        "es": "Contraseña del WiFi (todos los pisos):",
+        "en": "WiFi password (all floors):"
+      },
+      "highlight": "31668516"
+    },
+    {
+      "icon": "droplets",
+      "name": { "es": "Ayuda con agua caliente", "en": "Hot water help" },
+      "action": "link",
+      "url": "https://w.app/mphyn9",
+      "detail": {
+        "es": "¿Problemas con el agua caliente? Escríbenos por WhatsApp y te ayudamos al instante.",
+        "en": "Hot water trouble? Message us on WhatsApp and we'll help you right away."
+      }
+    },
+    {
+      "icon": "bell",
+      "name": { "es": "Recepción y asistencia", "en": "Reception & assistance" },
+      "action": "link",
+      "url": "https://w.app/od6its",
+      "detail": {
+        "es": "¿Necesitas algo? Contáctanos por WhatsApp.",
+        "en": "Need anything? Contact us on WhatsApp."
+      }
+    },
+    {
+      "icon": "coffee",
+      "name": { "es": "Desayuno incluido", "en": "Breakfast included" },
+      "action": "modal",
+      "detail": {
+        "es": "Tu desayuno incluido: jugo según la temporada · café, té o mate de coca · huevos revueltos, omelet o huevo frito · pan de piso de la región · mantequilla y mermelada.",
+        "en": "Your included breakfast: seasonal juice · coffee, tea or coca tea · scrambled eggs, omelet or fried egg · traditional regional bread · butter and jam."
+      }
+    },
+    {
+      "icon": "shirt",
+      "name": { "es": "Lavandería", "en": "Laundry" },
+      "action": "modal",
+      "detail": {
+        "es": "Hacemos lavandería: entregas tu ropa y la recibes en 24 horas. También hacemos lavado especializado de equipos de montaña.",
+        "en": "We do laundry: drop off your clothes and get them back in 24 hours. We also offer specialized washing for mountain gear."
+      }
+    },
+    {
+      "icon": "map",
+      "name": { "es": "Información turística", "en": "Tourist information" },
+      "action": "modal",
+      "image": "/assets/images/gilf.jpg",
+      "detail": {
+        "es": "Gilf es un guía de montaña con gran experiencia que puede darte la mejor información sobre rutas, condiciones y consejos para tu aventura. Contáctalo directamente:",
+        "en": "Gilf is a highly experienced mountain guide who can give you the best information on routes, conditions and tips for your adventure. Contact him directly:"
+      },
+      "phone": "+51 994453040"
+    },
+    {
+      "icon": "mountain",
+      "name": { "es": "Organización de tours", "en": "Tour organization" },
+      "action": "modal",
+      "detail": {
+        "es": "Organizamos tours privados y grupales a toda la Cordillera Blanca y Huayhuash. Acércate a recepción y armamos tu ruta.",
+        "en": "We organize private and group tours across the Cordillera Blanca and Huayhuash. Come to reception and we'll plan your route."
+      }
+    },
+    {
+      "icon": "luggage",
+      "name": { "es": "Custodia de equipaje", "en": "Luggage storage" },
+      "action": "modal",
+      "detail": {
+        "es": "Puedes dejar tu equipaje gratis mientras vas a la montaña. Si quieres saber cómo está tu equipaje, contáctanos:",
+        "en": "You can store your luggage for free while you're in the mountains. If you want to check on your luggage, contact us:"
+      },
+      "phone": "+51 994453040"
+    }
+  ],
+  "climbing": {
+    "title": { "es": "La Palestra", "en": "Climbing Wall" },
+    "image": "/assets/images/palestra.jpg",
+    "text": {
+      "es": "Tenemos una palestra en casa: puedes escalar cuando quieras y te prestamos zapatos de escalada gratis para que pruebes. Perfecta para calentar antes de Hatun Machay o para tu primera vez en la roca.",
+      "en": "We have a climbing wall at home: climb whenever you like — we lend you climbing shoes for free so you can try. Perfect for warming up before Hatun Machay or for your very first time on rock."
+    }
+  },
+  "contact": {
+    "address": "Las Esmeraldas 146 — Cruce de Palmira, Independencia, Huaraz, Perú",
+    "phone": "+51 994 453 040",
+    "whatsapp": "51994453040",
+    "whatsappTours": "https://w.app/ityfk9",
+    "email": "mcolonia01@gmail.com",
+    "instagram": "https://www.instagram.com/coloniaexpeditions/",
+    "instagramHandle": "@coloniaexpeditions",
+    "facebook": "https://www.facebook.com/La.casa.de.maruja.BB",
+    "maps": "https://maps.google.com/?q=La+Casa+de+Maruja+B%26B+Huaraz",
+    "mapsEmbed": "https://www.google.com/maps?q=La+Casa+de+Maruja+B%26B+Huaraz+Peru&output=embed",
+    "website": "https://www.lacasademaruja.com"
+  }
+}

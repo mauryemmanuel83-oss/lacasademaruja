@@ -1,0 +1,132 @@
+[
+  {
+    "id": "laguna-69",
+    "name": { "es": "Laguna 69", "en": "Laguna 69" },
+    "category": "lagunas",
+    "image": "/assets/tours/laguna69.jpg",
+    "duration": { "es": "1 día (full day)", "en": "1 day (full day)" },
+    "altitude": "4,604 m",
+    "difficulty": "moderate",
+    "description": {
+      "es": "La caminata de un día más famosa del Perú. Un ascenso entre cascadas, quenuales y vacas pastando hasta una laguna turquesa imposible al pie del nevado Chacraraju. Salida temprano por la mañana, unas 3 horas de subida y el premio de un color que no parece real.",
+      "en": "Peru's most famous day hike. An ascent past waterfalls, quenual forests and grazing cows to an impossibly turquoise lake at the foot of Mount Chacraraju. Early morning departure, about 3 hours up, and the reward of a color that doesn't look real."
+    }
+  },
+  {
+    "id": "santa-cruz",
+    "name": { "es": "Trek Santa Cruz", "en": "Santa Cruz Trek" },
+    "category": "trekking",
+    "image": "/assets/tours/santacruz.jpg",
+    "duration": { "es": "4 días / 3 noches", "en": "4 days / 3 nights" },
+    "altitude": "4,750 m (Punta Unión)",
+    "difficulty": "demanding",
+    "description": {
+      "es": "El clásico de la Cordillera Blanca: quebradas glaciares, lagunas esmeralda y el paso de Punta Unión con vistas al Taulliraju. Considerado uno de los mejores treks del mundo. Incluye arrieros, burros y campamentos bajo cielos llenos de estrellas.",
+      "en": "The Cordillera Blanca classic: glacial valleys, emerald lakes and the Punta Unión pass with views of Taulliraju. Considered one of the best treks in the world. Includes muleteers, donkeys and camps under star-filled skies."
+    }
+  },
+  {
+    "id": "huayhuash",
+    "name": { "es": "Circuito Huayhuash", "en": "Huayhuash Circuit" },
+    "category": "trekking",
+    "image": "/assets/tours/huayhuash.jpg",
+    "duration": { "es": "8 — 12 días", "en": "8 — 12 days" },
+    "altitude": "5,000 m (pasos)",
+    "difficulty": "expert",
+    "description": {
+      "es": "La expedición definitiva. Un anillo completo alrededor de la Cordillera Huayhuash: Siula Grande (la montaña de 'Tocando el Vacío'), Yerupajá y campamentos junto a lagunas azul profundo. Para trekkers con experiencia y buena aclimatación.",
+      "en": "The ultimate expedition. A full loop around the Huayhuash range: Siula Grande (the 'Touching the Void' mountain), Yerupajá and camps beside deep-blue lakes. For experienced, well-acclimatized trekkers."
+    }
+  },
+  {
+    "id": "pastoruri",
+    "name": { "es": "Glaciar Pastoruri", "en": "Pastoruri Glacier" },
+    "category": "nevados",
+    "image": "/assets/tours/pastoruri.jpg",
+    "duration": { "es": "1 día (full day)", "en": "1 day (full day)" },
+    "altitude": "5,250 m",
+    "difficulty": "easy",
+    "description": {
+      "es": "La ruta del cambio climático: puyas de Raimondi gigantes, aguas gasificadas y una caminata suave hasta el borde del glaciar. Ideal como primer contacto con la alta montaña — llegas a 5,000 metros casi sin esfuerzo.",
+      "en": "The climate change route: giant Puya raimondii plants, carbonated springs and a gentle walk to the glacier's edge. Ideal as a first taste of high mountains — you reach 5,000 meters almost effortlessly."
+    }
+  },
+  {
+    "id": "chavin",
+    "name": { "es": "Chavín de Huántar", "en": "Chavín de Huántar" },
+    "category": "cultural",
+    "image": "/assets/tours/chavin.jpg",
+    "duration": { "es": "1 día (full day)", "en": "1 day (full day)" },
+    "altitude": "3,180 m",
+    "difficulty": "easy",
+    "description": {
+      "es": "Patrimonio de la Humanidad: el templo ceremonial de 3,000 años de antigüedad, sus galerías subterráneas y el Lanzón monolítico. El viaje cruza el túnel de Kahuish y pasa por la laguna de Querococha. Historia pura en el Callejón de Conchucos.",
+      "en": "A World Heritage Site: the 3,000-year-old ceremonial temple, its underground galleries and the monolithic Lanzón. The trip crosses the Kahuish tunnel and passes Querococha lake. Pure history in the Conchucos valley."
+    }
+  },
+  {
+    "id": "paron",
+    "name": { "es": "Laguna Parón", "en": "Laguna Parón" },
+    "category": "lagunas",
+    "image": "/assets/tours/paron.jpg",
+    "duration": { "es": "1 día (full day)", "en": "1 day (full day)" },
+    "altitude": "4,185 m",
+    "difficulty": "easy",
+    "description": {
+      "es": "La laguna más grande de la Cordillera Blanca, custodiada por la pirámide perfecta del Artesonraju — la montaña del logo de Paramount Pictures. Se puede subir al mirador para la foto panorámica más famosa de la región.",
+      "en": "The largest lake in the Cordillera Blanca, guarded by the perfect pyramid of Artesonraju — the Paramount Pictures logo mountain. Climb to the viewpoint for the region's most famous panoramic photo."
+    }
+  },
+  {
+    "id": "escalada-roca",
+    "name": { "es": "Escalada en Roca — Hatun Machay", "en": "Rock Climbing — Hatun Machay" },
+    "category": "escalada",
+    "image": "/assets/tours/escalada.jpg",
+    "duration": { "es": "1 — 2 días", "en": "1 — 2 days" },
+    "altitude": "4,300 m",
+    "difficulty": "moderate",
+    "description": {
+      "es": "Uno de los mejores bosques de piedra de Sudamérica. Rutas deportivas para todos los niveles, con instrucción y equipo incluido. Y antes de ir, puedes practicar gratis en la palestra de la casa — te prestamos los zapatos.",
+      "en": "One of South America's finest rock forests. Sport routes for every level, with instruction and gear included. And before you go, practice for free on our climbing wall at home — we lend you the shoes."
+    }
+  },
+  {
+    "id": "mateo",
+    "name": { "es": "Nevado Mateo", "en": "Mount Mateo" },
+    "category": "montanismo",
+    "image": "/assets/tours/mateo.jpg",
+    "duration": { "es": "1 día (full day)", "en": "1 day (full day)" },
+    "altitude": "5,150 m",
+    "difficulty": "demanding",
+    "description": {
+      "es": "Tu primer cinco mil: ascenso guiado con crampones y piolet desde el paso de Punta Olímpica. En un solo día pasas de la carretera a la cumbre de un nevado andino. La puerta de entrada al montañismo.",
+      "en": "Your first 5,000 m summit: a guided ascent with crampons and ice axe from the Punta Olímpica pass. In a single day you go from the road to the summit of an Andean peak. The gateway to mountaineering."
+    }
+  },
+  {
+    "id": "llanganuco",
+    "name": { "es": "Lagunas de Llanganuco", "en": "Llanganuco Lakes" },
+    "category": "lagunas",
+    "image": "/assets/tours/llanganuco.jpg",
+    "duration": { "es": "1 día (full day)", "en": "1 day (full day)" },
+    "altitude": "3,850 m",
+    "difficulty": "easy",
+    "description": {
+      "es": "Las lagunas gemelas Chinancocha y Orconcocha entre paredones de granito, bajo el Huascarán, la montaña más alta del Perú. Incluye la visita al histórico Yungay. Perfecto para días de aclimatación en familia.",
+      "en": "The twin lakes Chinancocha and Orconcocha between granite walls, beneath Huascarán, Peru's highest mountain. Includes a visit to historic Yungay. Perfect for family acclimatization days."
+    }
+  },
+  {
+    "id": "wilcacocha",
+    "name": { "es": "Laguna Wilcacocha", "en": "Wilcacocha Lake" },
+    "category": "trekking",
+    "image": "/assets/tours/wilcacocha.jpg",
+    "duration": { "es": "Medio día", "en": "Half day" },
+    "altitude": "3,725 m",
+    "difficulty": "easy",
+    "description": {
+      "es": "La caminata de aclimatación perfecta: desde la Cordillera Negra, un mirador natural con la mejor panorámica de toda la Cordillera Blanca. Se llega en colectivo desde Huaraz y se sube en 1.5 — 2 horas entre caseríos y eucaliptos.",
+      "en": "The perfect acclimatization hike: from the Cordillera Negra, a natural viewpoint with the best panorama of the entire Cordillera Blanca. Take a colectivo from Huaraz and hike up in 1.5 — 2 hours past hamlets and eucalyptus trees."
+    }
+  }
+]

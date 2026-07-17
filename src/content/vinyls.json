@@ -1,0 +1,376 @@
+[
+  {
+    "id": "beatles-1",
+    "title": "1",
+    "artist": "The Beatles",
+    "year": 2000,
+    "genre": "rock",
+    "country": "UK",
+    "cover": "/assets/vinyls/beatles-1.jpg",
+    "status": "available",
+    "tracks": ["Love Me Do", "Hey Jude", "Let It Be", "Come Together", "Yesterday"],
+    "description": {
+      "es": "Los 27 números uno de los Beatles en un solo disco. La historia del pop en una sola tarde de escucha.",
+      "en": "All 27 Beatles number ones on a single record. The history of pop in one listening session."
+    },
+    "spotify": "https://open.spotify.com/search/The%20Beatles%201",
+    "youtube": "https://www.youtube.com/results?search_query=the+beatles+1+album"
+  },
+  {
+    "id": "artaud",
+    "title": "Artaud",
+    "artist": "Pescado Rabioso",
+    "year": 1973,
+    "genre": "rock",
+    "country": "Argentina",
+    "cover": "/assets/vinyls/artaud.jpg",
+    "status": "available",
+    "tracks": ["Todas las hojas son del viento", "Cementerio Club", "Bajan", "Cantata de puentes amarillos"],
+    "description": {
+      "es": "La obra maestra de Luis Alberto Spinetta, votado muchas veces como el mejor disco del rock argentino.",
+      "en": "Luis Alberto Spinetta's masterpiece, often voted the greatest Argentine rock album of all time."
+    },
+    "spotify": "https://open.spotify.com/search/Pescado%20Rabioso%20Artaud",
+    "youtube": "https://www.youtube.com/results?search_query=pescado+rabioso+artaud"
+  },
+  {
+    "id": "magaldi",
+    "title": "La Voz Sentimental de Buenos Aires",
+    "artist": "Agustín Magaldi",
+    "year": 1930,
+    "genre": "latino",
+    "country": "Argentina",
+    "cover": "/assets/vinyls/magaldi.jpg",
+    "status": "available",
+    "tracks": ["Nieve", "Vagabundo", "Consejo de oro", "Acquaforte"],
+    "description": {
+      "es": "El tango de la época dorada: Magaldi fue una de las voces más queridas de Buenos Aires en los años 30.",
+      "en": "Golden-age tango: Magaldi was one of the most beloved voices of 1930s Buenos Aires."
+    },
+    "spotify": "https://open.spotify.com/search/Agustin%20Magaldi",
+    "youtube": "https://www.youtube.com/results?search_query=agustin+magaldi+tango"
+  },
+  {
+    "id": "amor-amarillo",
+    "title": "Amor Amarillo",
+    "artist": "Gustavo Cerati",
+    "year": 1993,
+    "genre": "rock",
+    "country": "Argentina",
+    "cover": "/assets/vinyls/amor-amarillo.jpg",
+    "status": "available",
+    "tracks": ["Amor amarillo", "Lisa", "Te llevo para que me lleves", "Pulsar"],
+    "description": {
+      "es": "El primer disco solista de Cerati: íntimo, luminoso y adelantado a su tiempo.",
+      "en": "Cerati's first solo album: intimate, luminous and ahead of its time."
+    },
+    "spotify": "https://open.spotify.com/search/Gustavo%20Cerati%20Amor%20Amarillo",
+    "youtube": "https://www.youtube.com/results?search_query=gustavo+cerati+amor+amarillo"
+  },
+  {
+    "id": "septimo-dia",
+    "title": "SÉP7IMO DÍA",
+    "artist": "Soda Stereo",
+    "year": 2017,
+    "genre": "rock",
+    "country": "Argentina",
+    "cover": "/assets/vinyls/septimo-dia.jpg",
+    "status": "available",
+    "tracks": ["Prófugos", "De música ligera", "Persiana americana", "En la ciudad de la furia"],
+    "description": {
+      "es": "Los clásicos de Soda Stereo reimaginados para el espectáculo del Cirque du Soleil.",
+      "en": "Soda Stereo classics reimagined for the Cirque du Soleil show."
+    },
+    "spotify": "https://open.spotify.com/search/Soda%20Stereo%20SEP7IMO%20DIA",
+    "youtube": "https://www.youtube.com/results?search_query=soda+stereo+septimo+dia"
+  },
+  {
+    "id": "led-zeppelin-iv",
+    "title": "IV",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "rock",
+    "country": "UK",
+    "cover": "/assets/vinyls/led-zeppelin-iv.jpg",
+    "status": "available",
+    "tracks": ["Black Dog", "Rock and Roll", "Stairway to Heaven", "When the Levee Breaks"],
+    "description": {
+      "es": "Stairway to Heaven vive aquí. Uno de los discos de rock más grandes jamás grabados.",
+      "en": "Stairway to Heaven lives here. One of the greatest rock records ever made."
+    },
+    "spotify": "https://open.spotify.com/search/Led%20Zeppelin%20IV",
+    "youtube": "https://www.youtube.com/results?search_query=led+zeppelin+iv"
+  },
+  {
+    "id": "burt-lancaster",
+    "title": "La Cagaste... Burt Lancaster",
+    "artist": "Hombres G",
+    "year": 1986,
+    "genre": "pop",
+    "country": "España",
+    "cover": "/assets/vinyls/burt-lancaster.jpg",
+    "status": "available",
+    "tracks": ["El ataque de las chicas cocodrilo", "Visite nuestro bar", "Marta tiene un marcapasos"],
+    "description": {
+      "es": "El pop gamberro madrileño en su mejor momento: himnos coreables y pura diversión ochentera.",
+      "en": "Madrid's mischievous pop at its peak: singalong anthems and pure 80s fun."
+    },
+    "spotify": "https://open.spotify.com/search/Hombres%20G%20La%20Cagaste%20Burt%20Lancaster",
+    "youtube": "https://www.youtube.com/results?search_query=hombres+g+la+cagaste+burt+lancaster"
+  },
+  {
+    "id": "tres-caballeros",
+    "title": "Voces, Guitarra y Estilo",
+    "artist": "Los Tres Caballeros",
+    "year": 1960,
+    "genre": "latino",
+    "country": "México",
+    "cover": "/assets/vinyls/tres-caballeros.jpg",
+    "status": "available",
+    "tracks": ["La Barca", "Usted", "Contigo", "Noche de ronda"],
+    "description": {
+      "es": "Boleros de terciopelo: el trío mexicano que definió la canción romántica de los años 50 y 60.",
+      "en": "Velvet boleros: the Mexican trio that defined romantic song in the 50s and 60s."
+    },
+    "spotify": "https://open.spotify.com/search/Los%20Tres%20Caballeros",
+    "youtube": "https://www.youtube.com/results?search_query=los+tres+caballeros+boleros"
+  },
+  {
+    "id": "estamos-locos",
+    "title": "Estamos Locos... ¿O Qué?",
+    "artist": "Hombres G",
+    "year": 1987,
+    "genre": "pop",
+    "country": "España",
+    "cover": "/assets/vinyls/estamos-locos.jpg",
+    "status": "available",
+    "tracks": ["Y cayó la bomba (fétida)", "Temblando", "Una mujer de bandera"],
+    "description": {
+      "es": "El tercer disco de los madrileños, con Temblando: su balada más querida.",
+      "en": "The Madrid band's third album, featuring Temblando — their most beloved ballad."
+    },
+    "spotify": "https://open.spotify.com/search/Hombres%20G%20Estamos%20Locos%20O%20Que",
+    "youtube": "https://www.youtube.com/results?search_query=hombres+g+estamos+locos+o+que"
+  },
+  {
+    "id": "cumbia-andina-1",
+    "title": "Cumbia Andina Vol. 1",
+    "artist": "Los Chipis",
+    "year": 1980,
+    "genre": "peruano",
+    "country": "Perú",
+    "cover": "/assets/vinyls/cumbia-andina-1.jpg",
+    "status": "available",
+    "tracks": ["Cumbia andina", "Recuerdos de la sierra"],
+    "description": {
+      "es": "Cumbia con alma de huayno: guitarras eléctricas y melodías andinas que hacen bailar a la sierra entera.",
+      "en": "Cumbia with a huayno soul: electric guitars and Andean melodies that get the whole highlands dancing."
+    },
+    "spotify": "https://open.spotify.com/search/cumbia%20andina",
+    "youtube": "https://www.youtube.com/results?search_query=cumbia+andina+los+chipis"
+  },
+  {
+    "id": "cumbia-andina-2",
+    "title": "Cumbia Andina Vol. 2",
+    "artist": "Los Chipis",
+    "year": 1982,
+    "genre": "peruano",
+    "country": "Perú",
+    "cover": "/assets/vinyls/cumbia-andina-2.jpg",
+    "status": "available",
+    "tracks": ["Cumbia del altiplano", "Fiesta serrana"],
+    "description": {
+      "es": "La segunda entrega de la cumbia andina de Los Chipis: más fiesta, más sierra.",
+      "en": "The second installment of Los Chipis' Andean cumbia: more fiesta, more highlands."
+    },
+    "spotify": "https://open.spotify.com/search/cumbia%20andina",
+    "youtube": "https://www.youtube.com/results?search_query=cumbia+andina+los+chipis"
+  },
+  {
+    "id": "jilguero",
+    "title": "Al Compás de Mi Guitarra",
+    "artist": "El Jilguero del Huascarán",
+    "year": 1970,
+    "genre": "peruano",
+    "country": "Perú",
+    "cover": "/assets/vinyls/jilguero.jpg",
+    "status": "available",
+    "tracks": ["Paloma torcaza", "Corazón corazón", "Adiós pueblo de Caraz"],
+    "description": {
+      "es": "La voz eterna de Áncash: huaynos que nacieron en estas mismas montañas que ves desde la terraza.",
+      "en": "The eternal voice of Ancash: huaynos born in the very mountains you see from our terrace."
+    },
+    "spotify": "https://open.spotify.com/search/Jilguero%20del%20Huascaran",
+    "youtube": "https://www.youtube.com/results?search_query=jilguero+del+huascaran"
+  },
+  {
+    "id": "el-madrileno",
+    "title": "El Madrileño",
+    "artist": "C. Tangana",
+    "year": 2021,
+    "genre": "pop",
+    "country": "España",
+    "cover": "/assets/vinyls/el-madrileno.jpg",
+    "status": "available",
+    "tracks": ["Demasiadas mujeres", "Tú me dejaste de querer", "Ingobernable", "Un veneno"],
+    "description": {
+      "es": "Flamenco, bachata y rumba pasados por el filtro pop más moderno de España. Un clásico instantáneo.",
+      "en": "Flamenco, bachata and rumba through Spain's most modern pop filter. An instant classic."
+    },
+    "spotify": "https://open.spotify.com/search/C%20Tangana%20El%20Madrile%C3%B1o",
+    "youtube": "https://www.youtube.com/results?search_query=c+tangana+el+madrileno"
+  },
+  {
+    "id": "vida",
+    "title": "Vida",
+    "artist": "Sui Generis",
+    "year": 1972,
+    "genre": "rock",
+    "country": "Argentina",
+    "cover": "/assets/vinyls/vida.jpg",
+    "status": "available",
+    "tracks": ["Canción para mi muerte", "Necesito", "Amigo vuelve a casa pronto"],
+    "description": {
+      "es": "El debut de Charly García con Sui Generis: folk rock adolescente que marcó a generaciones enteras.",
+      "en": "Charly García's debut with Sui Generis: teenage folk rock that shaped entire generations."
+    },
+    "spotify": "https://open.spotify.com/search/Sui%20Generis%20Vida",
+    "youtube": "https://www.youtube.com/results?search_query=sui+generis+vida"
+  },
+  {
+    "id": "7000-danses",
+    "title": "7000 Danses",
+    "artist": "Indochine",
+    "year": 1987,
+    "genre": "pop",
+    "country": "Francia",
+    "cover": "/assets/vinyls/7000-danses.jpg",
+    "status": "available",
+    "tracks": ["La chevauchée des champs de blé", "Les tzars", "La machine à rattraper le temps"],
+    "description": {
+      "es": "New wave francés en su punto más elegante: sintetizadores, poesía y melancolía ochentera.",
+      "en": "French new wave at its most elegant: synthesizers, poetry and 80s melancholy."
+    },
+    "spotify": "https://open.spotify.com/search/Indochine%207000%20Danses",
+    "youtube": "https://www.youtube.com/results?search_query=indochine+7000+danses"
+  },
+  {
+    "id": "hey",
+    "title": "Hey!",
+    "artist": "Julio Iglesias",
+    "year": 1980,
+    "genre": "latino",
+    "country": "España",
+    "cover": "/assets/vinyls/hey.jpg",
+    "status": "available",
+    "tracks": ["Hey", "Paloma blanca", "Un sentimental", "Morriñas"],
+    "description": {
+      "es": "El disco que llevó a Julio Iglesias a la cima del mundo. Romance en estado puro.",
+      "en": "The album that took Julio Iglesias to the top of the world. Pure romance."
+    },
+    "spotify": "https://open.spotify.com/search/Julio%20Iglesias%20Hey",
+    "youtube": "https://www.youtube.com/results?search_query=julio+iglesias+hey"
+  },
+  {
+    "id": "hembra",
+    "title": "Hembra",
+    "artist": "Líbido",
+    "year": 2000,
+    "genre": "rock",
+    "country": "Perú",
+    "cover": "/assets/vinyls/hembra.jpg",
+    "status": "available",
+    "tracks": ["En esta habitación", "Tres", "Como un perro", "Sed"],
+    "description": {
+      "es": "El rock peruano en su mejor momento: el disco que hizo de Líbido una banda de estadios.",
+      "en": "Peruvian rock at its finest: the album that made Líbido a stadium band."
+    },
+    "spotify": "https://open.spotify.com/search/Libido%20Hembra",
+    "youtube": "https://www.youtube.com/results?search_query=libido+hembra+album"
+  },
+  {
+    "id": "ram",
+    "title": "RAM",
+    "artist": "Paul & Linda McCartney",
+    "year": 1971,
+    "genre": "rock",
+    "country": "UK",
+    "cover": "/assets/vinyls/ram.jpg",
+    "status": "available",
+    "tracks": ["Too Many People", "Uncle Albert / Admiral Halsey", "The Back Seat of My Car"],
+    "description": {
+      "es": "El disco casero y campestre de McCartney tras los Beatles. Incomprendido en su día, hoy de culto.",
+      "en": "McCartney's homespun countryside record after the Beatles. Misunderstood then, a cult favorite now."
+    },
+    "spotify": "https://open.spotify.com/search/Paul%20McCartney%20RAM",
+    "youtube": "https://www.youtube.com/results?search_query=paul+mccartney+ram+album"
+  },
+  {
+    "id": "mon-laferte-vol1",
+    "title": "Vol. 1",
+    "artist": "Mon Laferte",
+    "year": 2015,
+    "genre": "latino",
+    "country": "Chile",
+    "cover": "/assets/vinyls/mon-laferte-vol1.jpg",
+    "status": "available",
+    "tracks": ["Tu falta de querer", "Amor completo", "El cristal", "Tormento"],
+    "description": {
+      "es": "La voz más desgarradora de Latinoamérica: boleros, rock y despecho en dosis perfectas.",
+      "en": "Latin America's most heart-wrenching voice: boleros, rock and heartbreak in perfect doses."
+    },
+    "spotify": "https://open.spotify.com/search/Mon%20Laferte%20Vol%201",
+    "youtube": "https://www.youtube.com/results?search_query=mon+laferte+vol+1"
+  },
+  {
+    "id": "roots-of-chicha",
+    "title": "The Roots of Chicha",
+    "artist": "Varios Artistas",
+    "year": 2007,
+    "genre": "peruano",
+    "country": "Perú",
+    "cover": "/assets/vinyls/roots-of-chicha.jpg",
+    "status": "available",
+    "tracks": ["Sonido Amazónico", "Mujer Hilandera", "Cariñito", "Ya se ha muerto mi abuelo"],
+    "description": {
+      "es": "La recopilación que hizo que el mundo descubriera la cumbia psicodélica peruana de los 60 y 70.",
+      "en": "The compilation that made the world discover Peru's psychedelic cumbia of the 60s and 70s."
+    },
+    "spotify": "https://open.spotify.com/search/The%20Roots%20of%20Chicha",
+    "youtube": "https://www.youtube.com/results?search_query=the+roots+of+chicha"
+  },
+  {
+    "id": "bereto-cumbia",
+    "title": "Cumbia",
+    "artist": "Bareto",
+    "year": 2008,
+    "genre": "peruano",
+    "country": "Perú",
+    "cover": "/assets/vinyls/bereto-cumbia.jpg",
+    "status": "available",
+    "tracks": ["Cariñito", "Ya se ha muerto mi abuelo", "El aguajal"],
+    "description": {
+      "es": "Bareto revivió la cumbia amazónica para las nuevas generaciones y la volvió a poner de moda en el Perú.",
+      "en": "Bareto revived Amazonian cumbia for new generations and made it cool again across Peru."
+    },
+    "spotify": "https://open.spotify.com/search/Bareto%20Cumbia",
+    "youtube": "https://www.youtube.com/results?search_query=bareto+cumbia"
+  },
+  {
+    "id": "maritza",
+    "title": "Recopilatorio",
+    "artist": "Maritza Rodríguez",
+    "year": 1990,
+    "genre": "peruano",
+    "country": "Perú",
+    "cover": "/assets/vinyls/maritza.jpg",
+    "status": "available",
+    "tracks": ["Grandes éxitos"],
+    "description": {
+      "es": "Lo mejor de Maritza Rodríguez: voz y sentimiento de la canción peruana.",
+      "en": "The best of Maritza Rodríguez: the voice and soul of Peruvian song."
+    },
+    "spotify": "https://open.spotify.com/search/Maritza%20Rodriguez",
+    "youtube": "https://www.youtube.com/results?search_query=maritza+rodriguez+peru"
+  }
+]

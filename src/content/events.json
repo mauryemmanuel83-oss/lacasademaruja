@@ -1,0 +1,15 @@
+[
+  {
+    "id": "fiesta-peruana",
+    "type": "fiesta",
+    "day": { "es": "Miércoles 28 de julio", "en": "Wednesday, July 28" },
+    "time": "7:00 pm",
+    "name": { "es": "Fiesta Peruana", "en": "Peruvian Party" },
+    "description": {
+      "es": "Celebramos las Fiestas Patrias con una gran fiesta peruana: comida típica, tragos peruanos, música y buena compañía. ¡Todos los huéspedes están invitados!",
+      "en": "We celebrate Peru's Independence Day with a big Peruvian party: traditional food, Peruvian drinks, music and great company. All guests are invited!"
+    },
+    "icon": "flame",
+    "images": ["/assets/events/evento.jpg", "/assets/events/evento-1.jpg", "/assets/events/evento-2.jpg"]
+  }
+]

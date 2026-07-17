@@ -1,0 +1,21 @@
+[
+  { "src": "/assets/gallery/bg-1.jpg", "alt": { "es": "La Casa de Maruja", "en": "La Casa de Maruja" }, "tall": true },
+  { "src": "/assets/gallery/bg-2.jpg", "alt": { "es": "Gilf compartiendo información de rutas", "en": "Gilf sharing route information" } },
+  { "src": "/assets/gallery/bg-3.jpg", "alt": { "es": "La palestra de la casa", "en": "Our climbing wall" } },
+  { "src": "/assets/gallery/bg-4.jpg", "alt": { "es": "Rincones de la casa", "en": "Corners of the house" }, "tall": true },
+  { "src": "/assets/gallery/bg-5.jpg", "alt": { "es": "La casa y sus vistas", "en": "The house and its views" } },
+  { "src": "/assets/gallery/pisco-sour.jpg", "alt": { "es": "Nuestro pisco sour", "en": "Our pisco sour" } },
+  { "src": "/assets/gallery/evento.jpg", "alt": { "es": "Fiesta peruana en la casa", "en": "Peruvian party at the house" }, "tall": true },
+  { "src": "/assets/gallery/evento-1.jpg", "alt": { "es": "Noches de celebración", "en": "Celebration nights" } },
+  { "src": "/assets/gallery/evento-2.jpg", "alt": { "es": "Compartiendo con los huéspedes", "en": "Sharing with our guests" } },
+  { "src": "/assets/tours/laguna69.jpg", "alt": { "es": "Laguna 69", "en": "Laguna 69" } },
+  { "src": "/assets/tours/santacruz.jpg", "alt": { "es": "Trek Santa Cruz", "en": "Santa Cruz Trek" }, "tall": true },
+  { "src": "/assets/tours/huayhuash.jpg", "alt": { "es": "Circuito Huayhuash", "en": "Huayhuash Circuit" } },
+  { "src": "/assets/tours/pastoruri.jpg", "alt": { "es": "Glaciar Pastoruri", "en": "Pastoruri Glacier" } },
+  { "src": "/assets/tours/chavin.jpg", "alt": { "es": "Chavín de Huántar", "en": "Chavín de Huántar" } },
+  { "src": "/assets/tours/paron.jpg", "alt": { "es": "Laguna Parón", "en": "Laguna Parón" } },
+  { "src": "/assets/tours/escalada.jpg", "alt": { "es": "Escalada en Hatun Machay", "en": "Climbing at Hatun Machay" }, "tall": true },
+  { "src": "/assets/tours/mateo.jpg", "alt": { "es": "Nevado Mateo", "en": "Mount Mateo" } },
+  { "src": "/assets/tours/llanganuco.jpg", "alt": { "es": "Lagunas de Llanganuco", "en": "Llanganuco Lakes" } },
+  { "src": "/assets/tours/wilcacocha.jpg", "alt": { "es": "Laguna Wilcacocha", "en": "Wilcacocha Lake" } }
+]
