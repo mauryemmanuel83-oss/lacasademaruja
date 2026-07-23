@@ -1,4 +1,12 @@
 {
+  "cityRoute": {
+    "title": { "es": "Ruta recomendada por la ciudad", "en": "Recommended city route" },
+    "text": {
+      "es": "Nuestra ruta recomendada para conocer Huaraz a pie, con visita a algunos parques y los rincones que más nos gustan de la ciudad. Síguela en el mapa:",
+      "en": "Our recommended route to explore Huaraz on foot, visiting some parks and our favorite corners of the city. Follow it on the map:"
+    },
+    "embed": "https://www.google.com/maps/d/u/0/embed?mid=1UYbhrerIQS3uAgOG10vH9ccKvC3EP04&ehbc=2E312F"
+  },
   "checklist": {
     "title": { "es": "Checklist del viajero", "en": "Traveler's checklist" },
     "items": [

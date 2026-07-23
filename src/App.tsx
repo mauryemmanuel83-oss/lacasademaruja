@@ -26,13 +26,13 @@ export default function App() {
           <main>
             <Hero />
             <Hotel />
-            <Palestra />
             <Tours />
+            <InfoUtil />
             <Restaurant />
             <Drinks />
-            <Vinyls />
-            <InfoUtil />
+            <Palestra />
             <Events />
+            <Vinyls />
             <Gallery />
             <Contact />
           </main>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import {
   ChevronDown,
+  Route,
   ListChecks,
   MountainSnow,
   ShieldAlert,
@@ -86,7 +87,20 @@ export default function InfoUtil() {
 
       <div className="mx-auto max-w-3xl space-y-4">
         <Reveal>
-          <Accordion title={L(info.checklist.title)} Icon={ListChecks} defaultOpen>
+          <Accordion title={L(info.cityRoute.title)} Icon={Route} defaultOpen>
+            <p className="mb-4 text-sm leading-relaxed text-beige/80">{L(info.cityRoute.text)}</p>
+            <iframe
+              src={info.cityRoute.embed}
+              title="Ruta recomendada — Huaraz"
+              className="h-72 w-full rounded-xl border-0 sm:h-96"
+              loading="lazy"
+              allowFullScreen
+            />
+          </Accordion>
+        </Reveal>
+
+        <Reveal delay={0.03}>
+          <Accordion title={L(info.checklist.title)} Icon={ListChecks}>
             <ul className="space-y-2.5">
               {info.checklist.items.map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-sm text-beige/80">

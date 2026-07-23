@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Disc3, Play, Youtube, Music2 } from "lucide-react";
-import { Section, SectionTitle, Reveal, SmartImage, Badge, Pill, Modal } from "./ui";
+import { Section, Reveal, SmartImage, Badge, Pill, Modal } from "./ui";
 import { useI18n, STRINGS } from "../lib/i18n";
 import vinyls from "../content/vinyls.json";
 
@@ -18,6 +18,7 @@ export default function Vinyls() {
   const { t, L } = useI18n();
   const [genre, setGenre] = useState<(typeof GENRES)[number]>("all");
   const [selected, setSelected] = useState<Vinyl | null>(null);
+  const [open, setOpen] = useState(false);
 
   const filtered = genre === "all" ? vinyls : vinyls.filter((v) => v.genre === genre);
 
@@ -25,8 +26,28 @@ export default function Vinyls() {
     <Section id="vinilos" className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(111,78,55,0.22),transparent_55%)]" />
 
-      <SectionTitle kicker="La Colección" title={t("vinyls_title")} sub={t("vinyls_sub")} />
+      {/* Cabecera compacta con botón desplegable */}
+      <Reveal className="text-center">
+        <h2 className="font-display text-3xl text-gold">{t("vinyls_title")}</h2>
+        <div className="gold-rule mx-auto mt-4 w-32" />
+        <p className="mx-auto mt-4 max-w-xl font-serif text-base text-beige/75 italic">
+          {t("vinyls_sub")}
+        </p>
+        <button
+          onClick={() => setOpen(!open)}
+          className={`mx-auto mt-6 flex items-center gap-2 rounded-xl border px-6 py-3 font-display text-sm transition-all duration-300 ${
+            open
+              ? "border-cream/20 text-beige/70 hover:border-gold/40 hover:text-gold"
+              : "border-gold/50 bg-wine/30 text-gold hover:bg-wine/50"
+          }`}
+        >
+          <Disc3 size={17} className={open ? "" : "vinyl-spin"} />
+          {open ? t("vinyls_hide") : `${t("vinyls_browse")} (${vinyls.length})`}
+        </button>
+      </Reveal>
 
+      {open && (
+      <div className="mt-10">
       <Reveal className="mb-10 flex flex-wrap justify-center gap-2">
         {GENRES.map((g) => (
           <Pill key={g} active={genre === g} onClick={() => setGenre(g)}>
@@ -77,6 +98,8 @@ export default function Vinyls() {
           </Reveal>
         ))}
       </div>
+      </div>
+      )}
 
       {/* Ficha del disco */}
       <Modal open={!!selected} onClose={() => setSelected(null)} wide>

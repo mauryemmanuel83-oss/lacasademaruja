@@ -5,37 +5,21 @@
     "category": "pisco",
     "image": "/assets/drinks/pisco-sour.jpg",
     "abv": "12%",
-    "price": "S/ 20",
+    "price": { "es": "S/ 20 · Doble S/ 30", "en": "S/ 20 · Double S/ 30" },
     "ingredients": {
       "es": "Pisco, limón, jarabe de goma, clara de huevo, amargo de angostura",
       "en": "Pisco, lime, gum syrup, egg white, angostura bitters"
     },
     "story": {
-      "es": "El cóctel bandera del Perú, preparado en casa. Espuma sedosa, acidez perfecta y el orgullo nacional en una copa.",
-      "en": "Peru's flagship cocktail, made in-house. Silky foam, perfect acidity and national pride in a glass."
-    }
-  },
-  {
-    "id": "pisco-sour-doble",
-    "name": { "es": "Pisco Sour Doble", "en": "Double Pisco Sour" },
-    "category": "pisco",
-    "image": "/assets/drinks/pisco-sour.jpg",
-    "abv": "18%",
-    "price": "S/ 30",
-    "ingredients": {
-      "es": "Doble medida de pisco, limón, jarabe de goma, clara de huevo, amargo de angostura",
-      "en": "Double measure of pisco, lime, gum syrup, egg white, angostura bitters"
-    },
-    "story": {
-      "es": "Para los que ya se aclimataron: la versión con doble medida de pisco.",
-      "en": "For those already acclimatized: the double-measure version."
+      "es": "El cóctel bandera del Perú, preparado en casa. Espuma sedosa, acidez perfecta y el orgullo nacional en una copa. Pídelo clásico (S/ 20) o doble, con doble medida de pisco (S/ 30).",
+      "en": "Peru's flagship cocktail, made in-house. Silky foam, perfect acidity and national pride in a glass. Order it classic (S/ 20) or double, with a double measure of pisco (S/ 30)."
     }
   },
   {
     "id": "cusquena",
     "name": { "es": "Cerveza Cusqueña", "en": "Cusqueña Beer" },
     "category": "cerveza",
-    "image": "/assets/drinks/cusquena.jpg",
+    "image": "/assets/drinks/cusquena.webp",
     "abv": "5%",
     "price": { "es": "Consultar", "en": "Ask" },
     "ingredients": {
@@ -67,7 +51,7 @@
     "id": "coca-cola",
     "name": "Coca-Cola",
     "category": "sin-alcohol",
-    "image": "/assets/drinks/coca-cola.jpg",
+    "image": "/assets/drinks/coca-cola.webp",
     "abv": "0%",
     "price": { "es": "Consultar", "en": "Ask" },
     "ingredients": { "es": "Gaseosa", "en": "Soft drink" },
@@ -80,7 +64,7 @@
     "id": "inca-kola",
     "name": "Inca Kola",
     "category": "sin-alcohol",
-    "image": "/assets/drinks/inca-kola.jpg",
+    "image": "/assets/drinks/inca-kola.webp",
     "abv": "0%",
     "price": { "es": "Consultar", "en": "Ask" },
     "ingredients": { "es": "Gaseosa peruana de sabor único", "en": "Peru's unique golden soda" },

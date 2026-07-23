@@ -108,6 +108,27 @@
       }
     },
     {
+      "icon": "tent",
+      "name": { "es": "Alquiler de equipo de montaña", "en": "Mountain gear rental" },
+      "action": "modal",
+      "detail": {
+        "es": "Alquilamos todo lo que necesitas para tu aventura, revisado y en buen estado. Pregunta en recepción por precios y disponibilidad:",
+        "en": "We rent everything you need for your adventure, checked and in good condition. Ask at reception for prices and availability:"
+      },
+      "list": [
+        { "es": "Carpas 4 estaciones", "en": "4-season tents" },
+        { "es": "Bolsas de dormir (hasta -15 °C)", "en": "Sleeping bags (down to -15 °C)" },
+        { "es": "Colchonetas aislantes", "en": "Sleeping pads" },
+        { "es": "Mochilas de trekking", "en": "Trekking backpacks" },
+        { "es": "Bastones de trekking", "en": "Trekking poles" },
+        { "es": "Crampones y piolet", "en": "Crampons and ice axe" },
+        { "es": "Casco, arnés y cuerdas", "en": "Helmet, harness and ropes" },
+        { "es": "Botas de montaña", "en": "Mountaineering boots" },
+        { "es": "Cocina, combustible y menaje", "en": "Stove, fuel and cookware" }
+      ],
+      "phone": "+51 994453040"
+    },
+    {
       "icon": "luggage",
       "name": { "es": "Custodia de equipaje", "en": "Luggage storage" },
       "action": "modal",

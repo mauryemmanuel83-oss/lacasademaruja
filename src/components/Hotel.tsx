@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "motion/react";
 import {
   Wifi,
   Droplets,
@@ -11,15 +10,17 @@ import {
   Luggage,
   Check,
   MapPin,
-  ChevronDown,
   BookOpen,
+  Tent,
+  Copy,
+  Siren,
   Users,
   Sparkles,
   Phone,
   MessageCircle,
   ExternalLink,
 } from "lucide-react";
-import { Section, SectionTitle, Reveal, SmartImage, Modal } from "./ui";
+import { Section, Reveal, SmartImage, Modal } from "./ui";
 import { useI18n } from "../lib/i18n";
 import hotel from "../content/hotel.json";
 
@@ -32,6 +33,7 @@ const SERVICE_ICONS: Record<string, typeof Wifi> = {
   map: Map,
   mountain: Mountain,
   luggage: Luggage,
+  tent: Tent,
 };
 
 const ABOUT_ICONS: Record<string, typeof BookOpen> = {
@@ -42,69 +44,126 @@ const ABOUT_ICONS: Record<string, typeof BookOpen> = {
 
 type Service = (typeof hotel.services)[number];
 
+type About = (typeof hotel.about)[number];
+
 export default function Hotel() {
   const { t, L } = useI18n();
-  const [openAbout, setOpenAbout] = useState<string | null>(null);
+  const [about, setAbout] = useState<About | null>(null);
   const [service, setService] = useState<Service | null>(null);
+  const [copied, setCopied] = useState(false);
 
   const handleService = (s: Service) => {
     if (s.action === "link" && "url" in s && s.url) {
       window.open(s.url, "_blank", "noopener,noreferrer");
     } else {
+      setCopied(false);
       setService(s);
     }
   };
 
+  const copyPassword = async (text: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      // Fallback para navegadores sin Clipboard API
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      ta.remove();
+    }
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  const wifiService = hotel.services.find((s) => s.icon === "wifi")!;
+  const quickLinks = [
+    {
+      Icon: Wifi,
+      label: t("quick_wifi"),
+      onClick: () => handleService(wifiService),
+    },
+    {
+      Icon: MessageCircle,
+      label: t("quick_whatsapp"),
+      onClick: () => window.open("https://w.app/od6its", "_blank", "noopener,noreferrer"),
+    },
+    {
+      Icon: Mountain,
+      label: t("quick_tours"),
+      onClick: () => window.open(hotel.contact.whatsappTours, "_blank", "noopener,noreferrer"),
+    },
+    {
+      Icon: Siren,
+      label: t("quick_sos"),
+      onClick: () => document.getElementById("informacion")?.scrollIntoView({ behavior: "smooth" }),
+    },
+  ];
+
   return (
     <Section id="hotel" alt>
-      <SectionTitle kicker="La Casa" title={t("hotel_title")} sub={t("hotel_sub")} />
+      {/* Acceso rápido para el viajero */}
+      <Reveal className="mb-12">
+        <div className="mx-auto grid max-w-3xl grid-cols-4 gap-2 sm:gap-3">
+          {quickLinks.map(({ Icon, label, onClick }) => (
+            <button
+              key={label}
+              onClick={onClick}
+              className="card-hover flex flex-col items-center gap-2 rounded-xl border border-gold/25 bg-gradient-to-b from-wine/30 to-night p-3 sm:p-4"
+            >
+              <Icon size={20} className="text-gold" />
+              <span className="text-[11px] leading-tight text-beige/85 sm:text-xs">{label}</span>
+            </button>
+          ))}
+        </div>
+      </Reveal>
 
-      {/* Sobre nosotros — paneles desplegables compactos */}
-      <div className="mx-auto max-w-3xl space-y-3">
-        {hotel.about.map((item, i) => {
-          const Icon = ABOUT_ICONS[item.id] ?? BookOpen;
-          const open = openAbout === item.id;
-          return (
-            <Reveal key={item.id} delay={i * 0.06}>
-              <div
-                className={`overflow-hidden rounded-2xl border transition-colors duration-300 ${
-                  open ? "border-gold/40 bg-night" : "border-cream/8 bg-night hover:border-gold/25"
-                }`}
+      {/* Cabecera compacta + chips "sobre nosotros" */}
+      <Reveal className="mb-10 text-center">
+        <h2 className="font-display text-3xl text-gold">{t("hotel_title")}</h2>
+        <div className="gold-rule mx-auto mt-4 w-32" />
+        <div className="mt-5 flex flex-wrap justify-center gap-2">
+          {hotel.about.map((item) => {
+            const Icon = ABOUT_ICONS[item.id] ?? BookOpen;
+            return (
+              <button
+                key={item.id}
+                onClick={() => setAbout(item)}
+                className="flex items-center gap-1.5 rounded-full border border-cream/15 px-4 py-1.5 text-xs text-beige/75 transition-all duration-300 hover:border-gold/50 hover:text-gold"
               >
-                <button
-                  onClick={() => setOpenAbout(open ? null : item.id)}
-                  className="flex w-full items-center justify-between gap-3 p-5 text-left"
-                >
-                  <span className="flex items-center gap-3">
-                    <span className="rounded-full bg-wine/25 p-2.5 text-gold">
-                      <Icon size={17} />
-                    </span>
-                    <span className="font-display text-base text-cream">{L(item.title)}</span>
+                <Icon size={13} className="text-copper" />
+                {L(item.title)}
+              </button>
+            );
+          })}
+        </div>
+      </Reveal>
+
+      {/* Modal sobre nosotros */}
+      <Modal open={!!about} onClose={() => setAbout(null)}>
+        {about && (
+          <div className="p-6 sm:p-8">
+            <div className="mb-4 flex items-center gap-3">
+              {(() => {
+                const Icon = ABOUT_ICONS[about.id] ?? BookOpen;
+                return (
+                  <span className="rounded-full bg-wine/25 p-3 text-gold">
+                    <Icon size={20} />
                   </span>
-                  <motion.span animate={{ rotate: open ? 180 : 0 }} transition={{ duration: 0.3 }}>
-                    <ChevronDown size={18} className="text-gold/70" />
-                  </motion.span>
-                </button>
-                <AnimatePresence initial={false}>
-                  {open && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-                    >
-                      <p className="px-5 pb-5 leading-relaxed text-beige/80">{L(item.text)}</p>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            </Reveal>
-          );
-        })}
-      </div>
+                );
+              })()}
+              <h3 className="font-display text-xl text-gold">{L(about.title)}</h3>
+            </div>
+            <p className="leading-relaxed text-beige/85">{L(about.text)}</p>
+          </div>
+        )}
+      </Modal>
 
       {/* Servicios interactivos */}
-      <Reveal className="mt-14">
+      <Reveal>
         <h3 className="mb-3 text-center font-display text-2xl text-gold">{t("services")}</h3>
         <p className="mb-8 text-center font-serif text-sm text-beige/60 italic">
           {t("tap_service")}
@@ -162,7 +221,29 @@ export default function Hotel() {
                   {service.highlight}
                 </p>
                 <p className="mt-2 text-xs tracking-widest text-beige/50 uppercase">{t("wifi_note")}</p>
+                <button
+                  onClick={() => copyPassword(service.highlight!)}
+                  className={`mx-auto mt-4 flex items-center gap-2 rounded-lg px-5 py-2.5 text-sm font-medium transition-all duration-300 ${
+                    copied
+                      ? "bg-emerald-900/60 text-emerald-300"
+                      : "bg-gold text-night-deep hover:bg-gold-soft"
+                  }`}
+                >
+                  {copied ? <Check size={15} /> : <Copy size={15} />}
+                  {copied ? t("copied") : t("copy")}
+                </button>
               </div>
+            )}
+
+            {"list" in service && service.list && (
+              <ul className="mt-5 grid gap-2 sm:grid-cols-2">
+                {service.list.map((item, i) => (
+                  <li key={i} className="flex items-start gap-2.5 text-sm text-beige/85">
+                    <Check size={15} className="mt-0.5 shrink-0 text-copper" />
+                    {L(item)}
+                  </li>
+                ))}
+              </ul>
             )}
 
             {"phone" in service && service.phone && (

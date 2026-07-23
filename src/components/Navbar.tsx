@@ -20,12 +20,12 @@ import { useI18n, type Lang } from "../lib/i18n";
 const LINKS = [
   { id: "inicio", key: "nav_home", Icon: Home },
   { id: "hotel", key: "nav_hotel", Icon: Building2 },
-  { id: "palestra", key: "nav_rooms", Icon: Grip },
   { id: "tours", key: "nav_tours", Icon: Mountain },
+  { id: "informacion", key: "nav_info", Icon: Info },
   { id: "restaurante", key: "nav_restaurant", Icon: UtensilsCrossed },
   { id: "tragos", key: "nav_drinks", Icon: Martini },
+  { id: "palestra", key: "nav_rooms", Icon: Grip },
   { id: "vinilos", key: "nav_vinyls", Icon: Disc3 },
-  { id: "informacion", key: "nav_info", Icon: Info },
   { id: "contacto", key: "nav_contact", Icon: Phone },
 ] as const;
 
